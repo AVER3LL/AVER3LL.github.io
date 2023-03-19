@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+* {
+    box-sizing: border-box !important;
+    transition: ease all 0.5s;
+}
+table{
+    text-align: center;
+    vertical-align: middle;
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 70%;
+}
+th , td{
+padding:8px;
+}
+
+th{
+    background-color: black;
+}
+
+thead th{
+    width:25%
+}
+
+thead{
+    background-color: black;
+}
+    
+tr{
+    
+    width:100px;
+    padding:6px 0;
+    
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+h2{
+    text-align:center;
+    border:1px;
+    color:beige;
+}
+body{
+    font-family: 'Roboto Slab',serif;
+    background-color: #0e0e0e;
+    color:beige;
+    
+ }
+ a{
+    color:#d1d1d1;
+    text-decoration: none;
+ }
+div{
+    margin:0;
+}
+
+#Main ul{
+    position:sticky;
+    position:-webkit-sticky;
+    top: 2;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow:hidden;
+    background-color: #1c1c1c;
+}
+
+#Main li{
+    float:left;
+    border-right:2px;
+    margin-top: 10px;
+}
+
+#Main li :last-child{
+    border-right:none;
+}
+
+#Main li a{
+    display:block;
+    color: beige;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+}
+
+#Main li a:hover{
+    color:#824dd5;
+}
+
+#wrapper{
+    text-align: center;
+}
+
+li {
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+a:hover{
+    text-decoration-line: underline;
+}
+
+details {
+        display:block;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+#educ{
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#Books{
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#Random{
+    width:500px;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#Edits{
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#Movies{
+    text-align:center;
+}
+
+/*To center the table*/
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
